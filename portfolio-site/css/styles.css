@@ -1,0 +1,98 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section, div {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+
+.top-container{
+  /*border: 1px solid black;*/  /* For debugging */
+   padding: 5px 5px 10px 5px;
+}
+.top{
+  /*border: 1px solid black;*/  /* For debugging */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.top-left {
+    /*border: 1px solid black;*/  /* For debugging */
+  /* width: 100%; */
+}
+.top-right {
+  /*border: 1px solid black;*/  /* For debugging */
+    /* width: 100%; */
+}
+.head1 {
+    font-family: Helvetica;
+    font-size: 50px;
+    text-align: right;
+}
+.head2 {
+    font-family: Helvetica;
+    font-size: 15px;
+    text-align: right;
+}
+.picture {
+  border-color: #7d97ad;
+  border-width: 5px 0px 0px 0px;
+  border-style: solid;
+  padding: 15px 5px 5px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+.main {
+/*border: 1px solid black;*/  /* For debugging */
+  width: 100%;
+}
+.featured-container {
+  padding: 5px 5px 10px 5px;
+  /*border: 1px solid black;*/  /* For debugging */
+}
+.featured {
+  /*border: 1px solid black;*/  /* For debugging */
+}
+.featured-links {
+  /* border: 1px solid black;  /* For debugging */ */
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+/* .image,.featured-img {
+  width: 100%;
+} */
+.head3 {
+  font-family: Helvetica;
+  font-size: 40px;
+  color: #7d97ad;
+}
+.head4 {
+  font-family: Helvetica;
+  font-size: 30px;
+  color: #2d3c49;
+  text-align: center;
+}
+@media screen and (max-device-width : 415px) {
+.header__logo{
+  width: 95%;
+}
+.featured-links {
+  /* border: 1px solid black;  /* For debugging */ */
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+}
